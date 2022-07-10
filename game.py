@@ -3,11 +3,7 @@
 print("Rock, Paper, Scissors, Shoot!")
 
 # processing user inputs
-x = input("Enter a choice (Rock, Paper, Scissors): Rock")
+x = input("Enter a choice (Rock, Paper, Scissors): ")
 print(x)
+print(type(x))
 
-y= input("Enter a choice (Rock, Paper, Scissors): Paper")
-print(y)
-
-z= input("Enter a choice (Rock, Paper, Scissors): Scissors")
-print(z)
