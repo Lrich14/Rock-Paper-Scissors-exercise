@@ -8,7 +8,8 @@ print(x)
 print(type(x))
 
 # validate user inputs
-if x = ("Rock", "Paper", "Scissors"):
+x = ("Rock, Paper, Scissors")
+if x == ("Rock", "Paper", "Scissors"):
     print("Yes")
 else:
     print("Sorry I don't understand.  Please try again")
