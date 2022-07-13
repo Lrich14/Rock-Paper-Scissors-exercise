@@ -8,8 +8,6 @@ import random
 "Hello. Welcome Player One. Let's play Rock, Paper, Scissors, Shoot!"
 print("Hello. Welcome Player One. Let's play Rock, Paper, Scissors, Shoot!")
 
-# Creating a list of all user action options
-# user_action_list = ["Rock", "Paper", "Scissors", "ROCK", "PAPER", "SCISSORS", "rock", "paper", "scissors"]
 
 # processed user inputs, validated user inputs, and set up the randomized computer selections for the game to run properly.
 # I need to make a list of all the options so that the user action returns the accurate result
@@ -17,8 +15,7 @@ print("Hello. Welcome Player One. Let's play Rock, Paper, Scissors, Shoot!")
 while True:
     user_action = input("Enter a choice (Rock, Paper, Scissors): ")
     user_action = user_action.lower()
- #   user_action = ["Rock", "Paper", "Scissors", "ROCK", "PAPER", "SCISSORS", "rock", "paper", "scissors"]
- #   user_action = user_choice
+ 
     computer_choices = ["rock", "paper", "scissors"]
     if user_action not in computer_choices:
         print("Sorry I don't understand that entry.  Please try again")
