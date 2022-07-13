@@ -36,9 +36,10 @@ If you see the following message: "Hello. Welcome Player One. Let's play Rock, P
 
 ### Helpful Tools/Sites
 
-The following websites/links provide helpful guides and explanations on how to run similar style rock-paper-scissors games in python which can aid in creating this game as well.
--[Real Python](https://realpython.com/python-rock-paper-scissors/)
--[Hello World Program](https://thehelloworldprogram.com/python/python-game-rock-paper-scissors/)
+The following websites/links provide helpful guides and explanations on how to run similar style rock-paper-scissors games in python which can aid in creating this game as well:
+
+*[Real Python](https://realpython.com/python-rock-paper-scissors/)
+*[Hello World Program](https://thehelloworldprogram.com/python/python-game-rock-paper-scissors/)
 
 
 ## Usage
@@ -57,8 +58,13 @@ It will be important to have an understanding of the following functions, statem
 
 An example of the expected desire output after one game should look something like this:
 >Hello. Welcome Player One. Let's play Rock, Paper, Scissors, Shoot!
+>
 >Enter a choice (Rock, Paper, Scissors): 
+>
 >You chose paper, 
+>
 >computer chose scissors
+>
 >scissors beats paper! You lost to the computer, uh oh!
+>
 >Would you like to try again? (y/n):
